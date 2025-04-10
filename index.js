@@ -21,7 +21,14 @@ let thumb=track.thumbnail
 let duration=track.timestamp
 let description=track.description
 let link=track.url
-let caption=`*🎬 Title:* \`${title}\`\n*🧾 Description:* \`${description}\`\n*⏱️ Duration:* \`${duration}\``
+let caption=`
+*🎬 Title:* \`${title}\`
+➖➖➖➖➖➖➖➖➖➖➖➖
+*🧾 Description:* \`${description}\`
+➖➖➖➖➖➖➖➖➖➖➖➖
+*⏱️ Duration:* \`${duration}\`
+➖➖➖➖➖➖➖➖➖➖➖➖
+`
 
 let replyMarkup={
 inline_keyboard:[
